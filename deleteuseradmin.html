@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>delete user</title>
+        <link rel="stylesheet" href="css/newlog.css">
+        <style>
+            .tb{
+                margin-top: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="di1">
+            <form method="post" action="deleteuserhandler.php" class="fm1" enctype="multipart/form-data">
+                <table class="tb" width="500px" heigth="500px">
+                    <tr>
+                        <td colspan="2"> <img class="imglogreg" src="logo2.jpg"><h2 class="namelogreg"><span>iCa</span>re</h2></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><h3 class="h3logreg">Delete users</h3></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label>Enter email</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" class="in" name="proid" id="em" placeholder="enter useremail..." required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="btndelete" id="sub" class="sub" value="Delete">
+                            <input type="reset" name="sub" id="sub" class="sub" value="Cancel">                            
+                        
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Add to cart</title>
+        <link rel="stylesheet" href="css\adcart.css">
+        
+    </head>
+    <body>
+        <div class="di1">
+            <h2 class="name"><span>iCa</span>re</h2>
+            <nav class="nav1"><h2 class="hh2">Your Cart</h2></nav>
+            <div class="di2">
+                <table width="1000px" heigth="30px" class="tb1">
+                    <tr>
+                        <td class="t">Item no</td>
+                        <td class="t">Item name</td>
+                        <td class="t">Quantity</td>
+                        <td class="t">Price</td>
+                    </tr>
+                    <tr>
+                        <td>#3</td>
+                        <td>iphone 11 pro</td>
+                        <td><input type="number" name="num" class="num" min="0" id="i1" ></td>
+                        <td><h2 class="hhh2" id="p1"><script class="s1">let price=180;
+                            let c=document.getElementById("i1").value;
+                            console.log(c);
+                            let pric1=c*price;
+                            document.write("price=$ "+pric1);
+                             </script></h2></td>
+                    </tr>
+                    <tr>
+                        <td>#9</td>
+                        <td>iphone 13 pro max</td>
+                        <td><input type="number" name="num" class="num" min="0" id="i2"></td>
+                        <td><h2 class="hhh2" id="p2"><script class="s2">
+                            let price2=400;
+                            let c2=document.getElementById("i2").value;
+                            console.log(c2);
+                            let pric2=c2*price2; 
+                            document.write("price=$ "+pric2);
+                             </script></h2></td>
+                    </tr>
+                    <tr>
+                        <td>#13</td>
+                        <td>macbook air m1</td>
+                        <td><input type="number" name="num" class="num" min="0" id="i3"></td>
+                        <td><h2 class="hhh2" id="p3"><script class="s3">
+                            let price3=480;
+                            let c3=document.getElementById("i3").value;
+                            console.log(c3);
+                            let pric3=c3*price3;    
+                           document.write("price=$ "+pric3);
+                             </script></h2></td>
+                    </tr>
+                </table>
+                <div class="di3">
+                    <h2 class="hhhh2">Total price<h1 class="hh1"><script class="s4">
+                        let totp;
+                        totp=pric1+pric2+pric3;
+                        document.write("$"+totp);
+                         </script></h1></h2>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

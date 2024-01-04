@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:  Bradley Hand, cursive;
+}
+
+body{
+   height: 100vh;
+   background-image: url(../lo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ul1{
+    margin-top: 40px;
+}
+
+.ul1 li{
+    list-style: none;
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.ul1 li:hover{
+    background-color: white;
+    color: darkcyan;
+}
+h1{
+    color: darkcyan;
+    font-size: 50px;
+}
+
+.di1{
+    position: fix;
+    background-color: rgb(0, 0, 0);
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-color: aliceblue;
+    border-style: dashed;
+
+
+}
+
+ .di2{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.di3{
+    margin-left: 20vw;
+    width: 79vw;
+    margin-top: -390px;
+}
+
+.in{
+    width: 300px;
+    height: 50px;
+    margin-top: -5px;
+   margin-left: 160px;
+    border-style:groove;
+    border-color: black;
+    background-color:whitesmoke;
+    border-radius: 30px;
+    color: rgb(51, 31, 31);
+    text-decoration: none;
+    border: 5px solid darkcyan;
+}
+
+.sub{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    background-color:whitesmoke;
+    border: 5px solid darkcyan;
+    transition: transform .4s;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+.sub:hover{
+    transform: scale(1.2);
+}
+
+.di6 a{
+    border-style: groove;
+    border-color: white;
+    margin-left: 200px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: darkcyan;
+    color: black;
+}
+
+.di6 a:hover{
+    background-color: black;
+    color: darkcyan;
+    border-color: darkcyan
+}
+
+.di6 img{
+    border-radius: 50%;
+    margin-top: -28px;
+    margin-left: 20px;
+    
+}
+
+.lii{
+    float: left;
+    margin-top: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.p1{
+    color: rgb(255, 251, 0);
+    font-size: 50px;
+}
+.di8 h2 {
+    color: darkcyan;
+}
+.div7{
+    position: absolute;
+    margin-top: 200px;
+}
+
+.di8{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 60px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    text-align: center;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: double;
+}
+
+.name{
+    color: yellow;
+   
+    font-size: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    
+    color: darkcyan;
+}

@@ -1,0 +1,34 @@
+.name{
+    color: yellow;
+    font-size: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: -80px;
+    margin-left: 90px;
+    
+}
+.sp1{
+    font-size: 60px;
+    color: darkcyan;
+}
+
+.div2 .looimg{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border-style: inset;
+    border-color: rgb(167, 46, 46);
+    
+}
+
+.loogimg{
+    float:left;
+    margin-left: 20px;
+    margin-top: 13px;
+
+}
+
+h1{
+    color: blue;
+}

@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Bradley Hand, cursive;
+    box-sizing: border-box;
+}
+
+.name{
+    color: yellow;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-color:  darkcyan;
+    border-style: groove; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;
+    height: 100px;
+    border-bottom-color: yellow;
+    background-color:black;
+    width: 800px;
+    margin-left: 280px;
+
+}
+span{
+    
+    color: darkcyan;
+}
+.di1{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../wallpaper/8.jpg);
+}
+
+
+.ul1:hover{
+    background-color: lavender;
+    color: black;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 35px;
+    background-color:whitesmoke;
+    color:black;
+    text-decoration: none;
+    width:130px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 12px;
+    border-color:darkcyan;
+    border-style:groove;
+    text-align: center;
+}
+
+li:hover{
+    color:whitesmoke;
+    transform: scale(1.2);
+    background-color:darkcyan;
+}
+
+
+.divnext{
+    margin-left: 865px;
+    margin-top: 265px;
+    border-style: groove;
+    border-color: aquamarine; 
+    width: 500px;
+    height: 330px;
+    border-radius: 60px;
+    border-bottom-color: darkcyan;
+    border-top-color: darkcyan;
+    border-right-color: yellow;
+    border-left-color: yellow;
+    background-color:rgb(0, 0, 0);
+    color: lavender;
+}
+.divnext:hover{
+    background-color: lavender;
+    color: black;
+}
+
+.div3{
+    margin-top: 15px;
+}
+
+.he2{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.mangeuser{
+    margin-top: -325px;
+    margin-left: 100px;
+}
+
+.btndelete{
+    width: 100px;
+    height: 40px;
+    border-color: black;
+    background-color: darkcyan;
+    color: yellow;
+    border-radius: 30px;
+    margin-left: 170px;
+    margin-top: 140px;
+}
+
+.btnlogout{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: #ff0000;
+    border-color: rgb(223, 110, 213);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btnlogout:hover{
+    color: black;
+    background-color: #ff0000;
+}
+
+.iphone{
+   
+    text-align: center;
+}
+
+.iphone:hover{
+    color: black;
+}
+
+.ul1{
+    float: inline-start;
+    margin-top: 241px;
+    text-decoration: none;
+    border-color: darkcyan;
+    border-style: groove;
+    width: 250px;
+    height: 300px;
+    border-bottom-color: darkcyan;
+    border-top-color: darkcyan;
+    border-right-color: yellow;
+    background-color:darkcyan;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.blogout{
+    margin-top: -95px;
+    margin-left: 85%;
+}
+
+.btnlogout1{
+    background-color: darkcyan;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: yellow;
+    border-color: rgb(223, 110, 213);
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: -450px;
+    margin-top: -450px;
+}
+
+.btnlogout1:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.btnlogout2{
+    background-color: darkcyan;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: yellow;
+    border-color: rgb(223, 110, 213);
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: -450px;
+    margin-top: -400px;
+}
+
+.btnlogout2:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.btnlogout3{
+    background-color: darkcyan;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    color: yellow;
+    border-color: rgb(223, 110, 213);
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 85%;
+    margin-top: -590px;
+}
+
+.btnlogout3:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.he21{
+    text-align: center;
+    margin-top: 20px;
+    color: darkcyan;
+}

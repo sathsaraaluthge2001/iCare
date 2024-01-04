@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family:  Bradley Hand, cursive;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: url(../lo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.tb{
+    margin-left: 33%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-color: darkred;
+    border-style: double;
+    border-radius: 40%;
+    
+}
+
+td{
+    width: auto;
+    height: 50px;
+}
+
+.tb:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.in{
+    height: 50px;
+   width :280px;
+   border-radius: 30px;
+   border: 5px solid darkcyan;
+   display: inline-block;
+   outline: none;
+   margin-top: -40px;
+   
+}
+
+label{
+    font-weight: 600px;
+    font-size: 18px;
+    color: darkcyan;
+}
+
+.sub{
+    
+    outline: none;
+    border: 1px solid transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: darkcyan;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px darkcyan, 0px 0px 15px;
+    transition: transform .4s;
+    text-align: center;
+    margin-bottom: 20PX;
+    
+}
+    
+
+
+.sub:hover{
+    transform: scale(1.2);
+}
+
+.namelogreg{
+    color: yellow;
+     font-size: 60px;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+
+span{
+    
+    color: darkcyan;
+}
+
+.h4logreg1{
+    
+    text-decoration: none;
+    margin-top: -50px;
+}
+
+.alogreg:hover{
+    color: whitesmoke;
+}
+
+.alogreg{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    color:darkcyan;
+    margin-top: -15px;
+}
+
+.imglogreg{
+    width:70px;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+    
+    transition: transform .4s;
+}
+
+.h4log a{
+    text-decoration: none;
+    color: darkcyan;
+}

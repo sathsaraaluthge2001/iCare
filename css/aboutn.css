@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Bradley Hand, cursive;
+    box-sizing: border-box;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../lo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navabo{
+    display: flex;
+    align-items: center;
+    justify-content:first baseline;
+    padding-top: 8px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+.imgabo{
+    width:70px;
+    height: 70px;
+    margin-top: 13px;
+    margin-left: -70px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    transition: transform .4s; 
+}
+
+.imgabo:hover{
+    transform: scale(1.2);
+}
+
+.nameabo{
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+.spa2abo{
+    color: rgb(0, 0, 0);
+}
+.spabo{
+    
+    color: darkcyan;
+}
+
+.disimgabo{
+    margin-left: 5%;
+    margin-top:60px;
+    border-style: double;
+    border-color: rgb(179, 37, 37);
+    border-radius: 50%;
+}
+
+.desabopara{
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-top: -318px;
+    padding-right: 30px;
+
+}

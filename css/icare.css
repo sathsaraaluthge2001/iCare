@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Bradley Hand, cursive;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../back1.jpg);
+}
+
+.looimg{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+
+.loogimg{
+    float:left;
+    margin-left: 20px;
+    margin-top: 13px;
+
+}
+.name{
+    color: yellow;
+    
+    font-size: 60px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    
+    color: darkcyan;
+}
+
+.ul1{
+    float: inline-start;
+    margin-left: 250px;
+}
+.a{
+    float: left;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10%;
+    
+
+}
+
+li a{
+    background-color:whitesmoke;
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 17px;
+    border-radius: 30px;
+    transition: transform .4s;
+    font-size: 12px;
+    border-color:darkcyan;
+    border-style:groove;
+}
+
+li a:hover{
+    color:whitesmoke;
+    transform: scale(1.2);
+    background-color:darkcyan;
+    
+}
+
+.profile{
+    float: left;
+    margin-top: 2.5%;
+}
+
+.prol2{
+    margin-left: 20px;
+    border: 2px solid darkcyan;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.prol{
+    margin-left: 170px;
+    border: 2px solid darkcyan;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.prol:hover{
+    background-color: darkcyan;
+}
+.prol2:hover{
+    background-color: darkcyan;
+}
+
+.int{
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 110px;
+    
+}
+
+.int .inh2{
+    color: darkcyan;
+    padding-left: 18px;
+}
+
+.int .inh3{
+    padding-left: 13px;
+}
+
+.aplog{
+    margin-left: 32px;
+    width:100px;
+    height: 100px;
+}
+
+
+
+.search{
+   margin-top: 28px;
+   margin-left: 39.5%; 
+   padding: 14px 150px 15px 15px;
+   border-radius: 30px;
+   border: 5px solid darkcyan;
+   
+   
+}
+
+.sesub{
+    
+    
+    
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: darkcyan;
+    color: whitesmoke;
+    box-shadow: 0px 0px 5px darkcyan, 0px 0px 15px;
+    transition: transform .4s;
+    margin-top: 36px;
+    margin-left: -119px;
+}
+
+.sesub:hover{
+    transform: scale(1.2);
+}
+
+.aplog{
+    transition: transform .4s;
+}
+
+.aplog:hover{
+    transform: scale(1.2);
+    
+}
+
+
+.intro{
+    margin-top: 80px;
+    margin-left:110px;
+}
+
+.hhh3{
+    width:180px;
+    text-align: center;
+    color: darkcyan;
+}

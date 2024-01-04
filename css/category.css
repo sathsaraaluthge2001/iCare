@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  Bradley Hand, cursive;
+    box-sizing: border-box;
+}
+.catediv{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../lo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.catediv1{
+    height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+    
+    margin-top: 40px;
+    margin-left: 240px;
+}
+
+.catesec1{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.cateip{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: transform .4s;
+}
+
+.cateip:hover{
+    transform: scale(1.2);
+
+}
+.catespa{
+    margin-top:1px;
+    margin-left: 110px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.catea1{
+    text-decoration: none;
+}
+
+.desc{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.desc:hover{
+    color: darkcyan;
+}
+
+.cateh1{
+    text-align: center;
+    font-size: 70px;
+    color:rgb(0, 0, 0);
+}
